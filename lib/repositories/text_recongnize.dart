@@ -12,7 +12,7 @@ class MlService {
 
     for (TextBlock block in recognisedText.blocks) {
       recognizedList.add(
-          RecognizedText(lines: block.lines, block: block.text.toLowerCase()));
+          RecognizedText(lines: block.lines, block: block.text.toLowerCase(),));
     }
 
     return recognizedList;
